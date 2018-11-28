@@ -2,13 +2,13 @@ var imgs=document.querySelectorAll('.img')
 var mainDiv = document.getElementById("para");
 
 var sounds = {
-    // boy: document.getElementById("mySound1"), 
+    boy: document.getElementById("mySound1"), 
     dog: document.getElementById("mySound2"),
-    // snowman: document.getElementById("mySound3"), 
+    snowman: document.getElementById("mySound3"), 
     tree: document.getElementById("mySound4"),
     santa: document.getElementById("mySound5"),
     bell: document.getElementById("mySound6"),
-    // snowman1: document.getElementById("mySound7")
+    snowman1: document.getElementById("mySound7")
 }
 
 var texts={
