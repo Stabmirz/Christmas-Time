@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0b49c2;
+}
+
+.container{
+    background: url("img/background.png") no-repeat;
+    background-size: 100vw 100vh;
+    height: 97vh;
+    top: -1vh;
+    position: relative;
+    overflow: hidden;
+}
+#pic1{
+    left: 74vw;
+    top: 56vh;
+    position: relative;
+    z-index: 5;
+}
+#pic2{
+    left: 20vw;
+    top: 44vh;
+    position: relative;
+}
+#pic3{
+    top: 2vh;
+    position: relative;
+}
+#pic4{
+    left: 12vw;
+    top: -45vh;
+    position: relative;
+}
+#pic5{
+    left: 0vw;
+    top: -113vh;
+    position: relative;
+}
+#pic6{
+    left: 49vw;
+    top: -89vh;
+    position: relative;
+}
+#pic7{
+    right: -44vw;
+    top: -75vh;
+    position: relative;
+}
+#para{
+    visibility: hidden;
+    font-size: 20px;
+    position: relative;
+    color: white;
+    top: -157vh;
+    text-align: center;
+}
+
+#boy{
+    height: 30vh;
+    width: 25vw;
+}
+
+#dog{
+    height: 10vh;
+    width: 6vw;
+}
+#tree{
+    height: 33vh;
+    width: 12vw;
+}
+#snowman{
+    height: 30vh;
+    width: 10vw;
+}
+
+#snowman1{
+    height: 27vh;
+    width: 13vw;
+}
+#bell{
+    height: 8vh;
+    width: 3vw;
+}
+#santa{
+    height: 20vh;
+    width: 15vw;
+}
+
+
+#scoreBox{
+    position: absolute;
+    color:red;
+    padding: 6px;
+    height: 8vh;
+    width: 9vw;
+    left: 88vw;
+    text-align: center;
+    margin-top: -5vh;
+    font-weight: bold;font-family: Verdana, Geneva, sans-serif;
+    border: 2px solid red;
+}
+
+#boy{
+    animation-duration:1s;
+    animation-iteration-count :infinite;
+}
+
+@keyframes boy{
+    0% {transform: translateX(0)}
+    50% {transform: translateX(10px)}
+    100%{transform:translate(0) }
+}
+#dog{
+    animation-duration:1s;
+    animation-iteration-count :infinite;
+}
+
+@keyframes dog{
+    0% {transform: translateY(0)}
+    50% {transform: translateY(10px)}
+    100%{transform:translate(0) }
+}
+#tree{
+    animation-duration:1s;
+    animation-iteration-count :infinite;
+}
+
+@keyframes tree{
+    from, to {
+        transform: translate3d(0, 0, 0);
+    }
+      10%, 30%, 50%, 70%, 90% {
+        transform: translate3d(-5px, 0, 0);
+    }
+      20%, 40%, 60%, 80% {
+        transform: translate3d(5px, 0, 0);
+    }
+}
+#snowman{
+    animation-duration:1s;
+    animation-iteration-count :infinite;
+}
+
+@keyframes snowman{
+    0% {transform: translateX(0)}
+    50% {transform: translateX(10px)}
+    100%{transform:translate(0) }
+}
+#snowman1{
+    animation-duration:1s;
+    animation-iteration-count :infinite;
+}
+
+@keyframes snowman1{
+    0% {transform: translateX(0)}
+    50% {transform: translateX(10px)}
+    100%{transform:translate(0) }
+}
+#bell{
+    animation-duration:1s;
+    animation-iteration-count :infinite;
+}
+
+@keyframes bell{
+    0% {transform: translateX(0)}
+    50% {transform: translateX(10px)}
+    100%{transform:translate(0) }
+}
+#santa{
+    animation-duration:1s;
+    animation-iteration-count :infinite;
+}
+
+@keyframes santa{
+    0% {transform: translateX(0)}
+    50% {transform: translateX(10px)}
+    100%{transform:translate(0) }
+}
