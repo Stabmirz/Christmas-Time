@@ -14,7 +14,7 @@ var sounds = {
 var texts={
     boy:"Merry Chritsmas",
     dog: "woof-woof,arf-arf, ruff-ruff",
-    snowman:"you have a mail",
+    snowman:"Mail Man! Got your mail here!",
     tree:"shhhhsssshhhhhhhssssshhh",
     santa:"Hallo Hallo Hallo! Wish You Merry Chritsmas and Happy New Year",
     bell:"We Wish You A Merry Christmas",

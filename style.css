@@ -29,7 +29,7 @@ body{
 }
 #pic4{
     left: 12vw;
-    top: -45vh;
+    top: -44vh;
     position: relative;
 }
 #pic5{
@@ -67,7 +67,7 @@ body{
 }
 #tree{
     height: 33vh;
-    width: 12vw;
+    width: 14vw;
 }
 #snowman{
     height: 30vh;
@@ -131,10 +131,10 @@ body{
         transform: translate3d(0, 0, 0);
     }
       10%, 30%, 50%, 70%, 90% {
-        transform: translate3d(-5px, 0, 0);
+        transform: translate3d(-0.5px, 0, 0);
     }
       20%, 40%, 60%, 80% {
-        transform: translate3d(5px, 0, 0);
+        transform: translate3d(0.5px, 0, 0);
     }
 }
 #snowman{
