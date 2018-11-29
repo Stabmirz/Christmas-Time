@@ -26,7 +26,6 @@ var text = document.createElement("p");
 
 function playSounds(img) {
     mainDiv.style.visibility="visible";
-    img.style.animationName="none";
     sounds[img.id].currentTime = 0;
     sounds[img.id].play();
     text.style.color="white";
@@ -35,8 +34,6 @@ function playSounds(img) {
     text.style.color="white";
     mainDiv.appendChild(text);
     text.innerHTML=texts[img.id];
-    img.classList.remove("img");
-    img.classList.add("img")
     score.innerHTML = parseInt(score.innerHTML) + 1;
 }
 
