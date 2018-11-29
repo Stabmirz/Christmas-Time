@@ -108,7 +108,7 @@ body{
 
 @keyframes boy{
     0% {transform: translateX(0)}
-    50% {transform: translateX(10px)}
+    50% {transform: translateX(-10px)}
     100%{transform:translate(0) }
 }
 #dog{
@@ -154,7 +154,7 @@ body{
 
 @keyframes snowman1{
     0% {transform: translateX(0)}
-    50% {transform: translateX(10px)}
+    50% {transform: translateX(-10px)}
     100%{transform:translate(0) }
 }
 #bell{

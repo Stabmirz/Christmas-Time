@@ -12,13 +12,13 @@ var sounds = {
 }
 
 var texts={
-    boy:"Merry Chritsmas",
-    dog: "woof-woof,arf-arf, ruff-ruff",
+    boy:"Bye Bye!",
+    dog: "woof-woof,arf-arf, ruff-ruff!",
     snowman:"Mail Man! Got your mail here!",
     tree:"shhhhsssshhhhhhhssssshhh",
-    santa:"Hallo Hallo Hallo! Wish You Merry Chritsmas and Happy New Year",
-    bell:"We Wish You A Merry Christmas",
-    snowman1:"Merry Chritsmas"
+    santa:"Hallo Hallo Hallo! Wish You Merry Chritsmas and Happy New Year!",
+    bell:"We Wish You A Merry Christmas...",
+    snowman1:"We Wish You A Merry Christmas...!!!"
 }
 
 
