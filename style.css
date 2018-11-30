@@ -103,7 +103,7 @@ body{
 
 #boy{
     animation-duration:1s;
-    animation-iteration-count :infinite;
+    animation-iteration-count: infinite;
 }
 
 @keyframes boy{

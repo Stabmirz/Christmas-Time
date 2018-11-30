@@ -30,6 +30,9 @@ function playSounds(img) {
     sounds[img.id].play();
     text.style.color="white";
     img.style.animationName=img.id;
+    setTimeout(() => {
+        img.style.animationName="none";
+    }, 30000);
     text.style.fontSize="24px";
     text.style.color="white";
     mainDiv.appendChild(text);
